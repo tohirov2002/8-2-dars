@@ -1,0 +1,22 @@
+from LinkedList import LinkedList
+
+week = LinkedList()
+week.append(1)
+week.append(2)
+week.append(3)
+week.append(4)
+week.append(5)
+week.append(6)
+week.append(7)
+
+# print(week.print_list())
+num = week.calculate_sum()
+print(f"sonlar yig'indisi: {num}")
+element = week.orta_aritmetik()
+print(f"orta arxmetigi: {element}")
+nums = week.delete_node_at_position(3)
+print(nums)
+print(week.print_list())
+numbers = week.insert_at_position(3,4)
+print(numbers)
+print(week.print_list())
